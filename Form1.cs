@@ -16,5 +16,15 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void btnEqual_Click(object sender, EventArgs e)
+        {
+            //txtFirst.Text = "ChangedText";
+            string temp1 = txtFirst.Text;
+            string temp2 = txtSecond.Text;
+            string tempconcate = temp1 + " " +temp2;
+            MessageBox.Show(tempconcate);
+
+        }
     }
 }
